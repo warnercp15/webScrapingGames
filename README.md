@@ -24,7 +24,7 @@ Estas librerías permiten definir mediante las etiquetas de los sitios web que i
 
 # Programacion Multicore
 
-Para implementar la programacion multicore se emplearon 3 niveles de paralelismo:
+Para implementar la programacion multicore se emplearon 4 niveles de paralelismo:
 
 **1º Nivel de paralelismo**
 
@@ -40,7 +40,11 @@ HowLongToBeat: Para implementar el Web scrapping se utilizó un API de Python (H
 
 **3º Nivel de paralelismo**
 
-De manera paralela se consulta el precio de cada juego en Ikurogames y Dixgamer, para así compararlos y clasificar cual sitio web posee el precio más bajo y cual el precio más alto, a la vez, se detecta si alguno de los 2 sitios posee alguna oferta en este juego, para luego catalogarlo de esta manera. Cabe destacar, que en cada página se consultan 40 juegos, por lo que se implementó otro proceso en paralelo para dividir estas consultas en 2 procesos, de forma que cada uno posee 20 juegos, lo cual se puede definir como un cuarto nivel de paralelismo, esto se implementó para obtener una mejoría en los tiempos de respuesta.
+De manera paralela se consulta el precio de cada juego en Ikurogames y Dixgamer, para así compararlos y clasificar cual sitio web posee el precio más bajo y cual el precio más alto, a la vez, se detecta si alguno de los 2 sitios posee alguna oferta en este juego, para luego catalogarlo de esta manera. 
+
+**4º Nivel de paralelismo**
+
+En cada página se consultan 40 juegos, por lo que se implementó otro proceso en paralelo para dividir estas consultas en 2 procesos, de forma que cada uno posee 20 juegos, esto se implementó para obtener una mejoría en los tiempos de respuesta.
 
 # Diferencias de la programacion multicore y la programacion secuencial
 
