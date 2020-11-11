@@ -24,7 +24,7 @@ Estas librerías permiten definir mediante las etiquetas de los sitios web que i
 
 # Programacion Multicore
 
-Para implementar la programacion multicore se emplearon 4 niveles de paralelismo:
+Para implementar la programacion multicore se emplearon 3 niveles de paralelismo:
 
 **1º Nivel de paralelismo**
 
