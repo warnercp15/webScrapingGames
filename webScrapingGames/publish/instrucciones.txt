@@ -1,0 +1,6 @@
+Ejecutar setup.exe (siguiente, siguiente ...)
+
+Mover o copiar las carpetas imgs y PythonScripts a la ruta:
+C:\Users\su nombre de usuario\AppData\Local\Apps\2.0\
+
+Listo, ejecutar la aplicacion
