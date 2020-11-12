@@ -8,16 +8,6 @@ Esta aplicacion web esta en la carpeta nombrada como "appWeb" en este repositori
 
 ![resultado](<./assets/resultado.jpeg>) 
 
-# Entorno de Desarrollo
-
-Se desarrolló una aplicación Web:
-
-- Backend: C# y Python
-- Frontend: Angular
-- Librerias importantes: HtmlAgilityPack, HowLongToBeatPy API
-
-**Nota:** 
-
 # Web scrapping
 
 La técnica del WebScrapping consiste en extraer información de diferentes sitios web, esta tecnica fue determinante en el desarrollo de este proyecto y su implementación esta basada principalmente en librerías que dispone C# para realizar solicitudes a una pagina, en caso, utilizamos HtmlAgilityPack y HowLongToBeatPy API.
@@ -52,7 +42,7 @@ En cada página se consultan 40 juegos, por lo que se implementó otro proceso e
 
 Con el objetivo de determinar la diferencia entre utilizar la típica programación secuencial a utilizar la programación multicore se implementó la posibilidad de ejecutar esta aplicación de forma secuencial, de forma que se ejecuta cada instrucción hasta que se finalice la anterior, esto mostró un aumento en los tiempos de respuesta bastantes significativos con respecto a la programación multicore.
 
-Para esto se desarrollo una aplicacion de esritorio que permite ejecutar el programa de forma secuencial o multicore como el usuario lo prefiera, esto mas que todo con fines educativos, para demostrar la diferencia de rendimiento que poseen estos tipos de programacion y asi obtener mayor provecho de este proyecto.
+Para esto se desarrollo una aplicacion secundaria de esritorio que permite ejecutar el programa de forma secuencial o multicore como el usuario lo prefiera, esto mas que todo con fines educativos, para demostrar la diferencia de rendimiento que poseen estos tipos de programacion y asi obtener mayor provecho de este proyecto.
 
 Esta aplicacion de escritorio esta en la carpeta nombrada como "appEscritorio" del presente repositorio. 
 
