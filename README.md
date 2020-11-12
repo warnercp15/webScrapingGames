@@ -2,7 +2,9 @@
 
 Este proyecto consiste en el desarrollo de un metabuscador de videojuegos utilizando Web scrapping y programacion multicore con el objetivo de aprender el potencial que brindan estas herramientas en un sistema de computo.
 
-Enlace de la aplicacion: https://webscrapinggames.web.app/
+Enlace de la aplicacion Web: https://webscrapinggames.web.app/
+
+Esta aplicacion web esta en la carpeta nombrada como "" del repositorio.
 
 ![resultado](<./assets/resultado.jpeg>) 
 
@@ -50,7 +52,9 @@ En cada página se consultan 40 juegos, por lo que se implementó otro proceso e
 
 Con el objetivo de determinar la diferencia entre utilizar la típica programación secuencial a utilizar la programación multicore se implementó la posibilidad de ejecutar esta aplicación de forma secuencial, de forma que se ejecuta cada instrucción hasta que se finalice la anterior, esto mostró un aumento en los tiempos de respuesta bastantes significativos con respecto a la programación multicore.
 
-Para esto se implemento una aplicacion de esritorio que permite ser ejecutada de ambas formas, esto mas que todo con fines educativos, para demostrar la diferencia de rendimiento que poseen estos tipos de programacion y asi obtener mayor provecho de este proyecto. 
+Para esto se desarrollo una aplicacion de esritorio que permite ejecutar el programa de forma secuencial o multicore como el usuario lo prefiera, esto mas que todo con fines educativos, para demostrar la diferencia de rendimiento que poseen estos tipos de programacion y asi obtener mayor provecho de este proyecto.
+
+Esta aplicacion de escritorio esta en la carpeta nombrada como "" del repositorio. 
 
 # Conclusiones
 
