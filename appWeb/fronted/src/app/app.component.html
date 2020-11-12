@@ -1,0 +1,28 @@
+<div id="inicio">
+    <br/>
+    <br/>
+    <h1>Web Scraping Games</h1>
+    <h4>By Warner Cortés, Fabián Zamora & Fabián Alfaro </h4>
+</div>
+
+<div id="container">
+    <div *ngFor="let objeto of listaJuegos.data" class="itemDiv">
+        <div class="card" [ngClass]="{'oferta' : objeto.offer}">
+            <img src="{{objeto.imageUrl}}" class="card-img-top" alt="{{objeto.name}}">
+            <div class="card-body">
+                <h3 class="card-title" class="titulo">{{objeto.name}}</h3>
+            </div>
+            <div class="contenido">
+                <p>Precio: {{objeto.price}}</p>
+                <p>Puntuación: {{objeto.score}}</p>
+                <p>Duración: {{objeto.timeToBeat}}</p>  
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+    <br/>
+    <a href="https://github.com/warnercp15/webScrapingGames" target="_blank">Link del Proyecto</a>
+    <p>© Copyright 2020</p>
+</div>
