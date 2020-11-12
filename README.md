@@ -4,7 +4,7 @@ Este proyecto consiste en el desarrollo de un metabuscador de videojuegos utiliz
 
 Enlace de la aplicacion Web: https://webscrapinggames.web.app/
 
-Esta aplicacion web esta en la carpeta nombrada como "" del repositorio.
+Esta aplicacion web esta en la carpeta nombrada como "appWeb" en este repositorio.
 
 ![resultado](<./assets/resultado.jpeg>) 
 
