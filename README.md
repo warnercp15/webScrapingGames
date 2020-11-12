@@ -20,9 +20,9 @@ Se desarrolló una aplicación Web:
 
 # Web scrapping
 
-La técnica del WebScrapping consiste en extraer información de diferentes sitios web, esta tecnica fue determinante en el desarrollo de este proyecto y su implementación esta basada principalmente en librerías que dispone C# para realizar solicitudes a una pagina, utilizamos HtmlAgilityPack que permite analizar archivos HTML de la web.
+La técnica del WebScrapping consiste en extraer información de diferentes sitios web, esta tecnica fue determinante en el desarrollo de este proyecto y su implementación esta basada principalmente en librerías que dispone C# para realizar solicitudes a una pagina, en caso, utilizamos HtmlAgilityPack y HowLongToBeatPy API.
 
-Estas librerías permiten definir mediante las etiquetas de los sitios web que información se desea extraer, por lo tanto, con la información ya obtenida se puede analizar y mostrar los resultados que nos convenga. Cabe destacar que, esta técnica NO puede ser aplicada a cualquier sitio web, algunos poseen bloqueos ante esta.
+Estas librerías permiten definir mediante las etiquetas de los sitios web que información se desea extraer, por lo tanto, con la información ya obtenida, esta se puede analizar y mostrar segun los requerimientos del software. Cabe destacar que, esta técnica NO puede ser aplicada a cualquier sitio web, algunos poseen bloqueos ante esta.
 
 # Programacion Multicore
 
