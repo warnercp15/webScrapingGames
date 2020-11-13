@@ -21,13 +21,10 @@ namespace webScrapingGames
         [STAThread]
         static void Main()
         {
-            MultiprocessingMethods mp = new MultiprocessingMethods();
-            mp.ExecuteMultiproccessingAsync();
-
-            Console.Write("Press 'E' to exit the process...");
-            // here it ask to press "E" to exit 
-            while (Console.ReadKey().Key != ConsoleKey.E)
+            while (true)
             {
+                MultiprocessingMethods mp = new MultiprocessingMethods();
+                mp.ExecuteMultiproccessingAsync();
             }
         }
 
