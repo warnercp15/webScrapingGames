@@ -16,4 +16,4 @@ El frontend fue desarrollado en Angular. Desde este módulo se hace consulta al 
 
 1. Cambiar la dirección IPv4 escrita en la función SendJsonAsync de la clase MultiprocessingMethods de C# por la dirección IPv4 correspondiente a tu computador.
 2. Cambiar la dirección IPv4 para la función main del servidor escrito en Python por la dirección IPv4 correspondiente a tu computador.
-3. Cambiar la dirección IPv4 en el archivo XXXXX.ts en la funcion XXXX por la dirección IPv4 correspondiente a tu computador.
+3. Cambiar la dirección IPv4 en el archivo del Frontend app.component.ts en la funcion getData por la dirección IPv4 correspondiente a tu computador.
