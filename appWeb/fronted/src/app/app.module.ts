@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserIdleModule } from 'angular-user-idle';
+//import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -11,6 +12,7 @@ import { UserIdleModule } from 'angular-user-idle';
   imports: [
     BrowserModule,
     HttpClientModule,
+    //AngularFontAwesomeModule,
     UserIdleModule.forRoot({idle: 50, timeout: 50, ping:50})
   ],
   providers: [],

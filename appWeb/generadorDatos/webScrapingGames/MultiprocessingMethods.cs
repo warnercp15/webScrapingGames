@@ -14,7 +14,7 @@ namespace webScrapingGames
 {
     class MultiprocessingMethods
     {
-        List<string> games = new List<string>() { "uncharted the nathan drake collection", "final fantasy vii remake", "sekiro shadows die twice", "devil may cry 5", "the evil within 2", "borderlands 3", "cuphead", "doom eternal", "fallout 76", "fifa 21", "payday 2 crimewave edition", "middle earth shadow of mordor", "ark survival evolved", "red dead redemption 2", "ghost of tsushima", "tomb raider definitive edition", "need for speed payback", "resident evil 0 hd", "lego marvel super heroes", "batman arkham knight", "lego marvel avengers", "lego harry potter collection", "street fighter v", "until dawn", "bloodborne", "heavy rain", "dying light", "dishonored 2", "just cause 4", "ufc 3", "doom", "lego batman 3", "resident evil 5", "resident evil hd", "mad max", "dirt 4", "tekken 7", "lego worlds", "mortal kombat x", "battlefield 4" };
+        List<string> games = new List<string>() { "uncharted the nathan drake collection", "final fantasy vii remake", "sekiro shadows die twice", "devil may cry 5", "the evil within 2", "borderlands 3", "cuphead", "doom eternal", "fallout 76", "fifa 21", "payday 2 crimewave edition", "middle earth shadow of mordor", "ark survival evolved", "red dead redemption 2", "ghost of tsushima", "tomb raider definitive edition", "need for speed payback", "resident evil 0 hd", "lego marvel super heroes", "batman arkham knight", "lego marvel avengers", "lego harry potter collection", "street fighter v", "until dawn", "bloodborne", "heavy rain", "dying light", "dishonored 2", "just cause 4", "ufc 3", "doom", "days gone", "resident evil 5", "resident evil hd", "mad max", "dirt 4", "tekken 7", "lego worlds", "mortal kombat x", "battlefield 4" };
         Stopwatch stopWatch = new Stopwatch();
 
         private List<string> getMetacriticSecuencial()
@@ -247,7 +247,7 @@ namespace webScrapingGames
 
             string price, name, score, timeToBeat, imgUrl;
             Boolean offer;
-            Console.WriteLine("Inicio de Ejecucion Mutiproceso.");
+            Console.WriteLine("\nInicio de Ejecucion Mutiproceso.");
             stopWatch.Start(); //proceso general o total
 
             Parallel.Invoke(() =>

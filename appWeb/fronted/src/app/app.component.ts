@@ -44,7 +44,7 @@ export class AppComponent {
 	}
 
    	getData() {
-		this._http.get("tuIpv4/getData").subscribe(
+		this._http.get("https://warnercp15.pythonanywhere.com/getData").subscribe(
 		data => (
 			this.listaJuegos=data),
 		(err: HttpErrorResponse) => {
