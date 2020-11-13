@@ -6,6 +6,8 @@ Enlace de la aplicacion Web: https://webscrapinggames.web.app/
 
 Esta aplicacion web esta en la carpeta nombrada como "appWeb" en este repositorio.
 
+**Resultado**
+
 ![resultado](<./assets/resultado.jpeg>) 
 
 # Web scrapping
@@ -44,7 +46,19 @@ Con el objetivo de determinar la diferencia entre utilizar la típica programaci
 
 Para esto se desarrollo una aplicacion secundaria de esritorio que permite ejecutar el programa de forma secuencial o multicore como el usuario lo prefiera, esto mas que todo con fines educativos, para demostrar la diferencia de rendimiento que poseen estos tipos de programacion y asi obtener mayor provecho de este proyecto.
 
-Esta aplicacion de escritorio esta en la carpeta nombrada como "appEscritorio" del presente repositorio. 
+Esta aplicacion de escritorio esta en la carpeta nombrada como "appEscritorio" del presente repositorio.
+
+**Resultado**
+
+![vistaEscritorio](<./assets/vistaEscritorio.jpeg>)
+
+**Tiempo de ejecucion secuencial**
+
+![secuencial](<./assets/secuencial.jpeg>)
+
+**Tiempo de ejecucion multicore**
+
+![multicore](<./assets/multicore.jpeg>)
 
 # Conclusiones
 
