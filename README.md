@@ -2,7 +2,7 @@
 
 Este proyecto consiste en el desarrollo de un metabuscador de videojuegos utilizando Web scrapping y programación multicore con el objetivo de aprender el potencial que brindan estas herramientas en un sistema de computo.
 
-Enlace de la aplicacion Web: https://webscrapinggames.web.app/
+**Enlace de la aplicación Web: https://webscrapinggames--scrapinggames-3es14ulw.web.app/**
 
 Esta aplicación web se encuentra en la carpeta nombrada como "appWeb" en este repositorio.
 
@@ -18,7 +18,7 @@ Estas librerías permiten definir mediante las etiquetas de los sitios web que i
 
 # Programacion Multicore
 
-Para implementar la programacion multicore se emplearon 4 niveles de paralelismo:
+Para implementar la programación multicore se emplearon 4 niveles de paralelismo:
 
 **1º Nivel de paralelismo**
 
